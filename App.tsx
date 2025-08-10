@@ -3,7 +3,7 @@ import React, { useState, useCallback } from 'react';
 import { TwitterIcon, TelegramIcon, PumpFunIcon, NftIcon, CopyIcon, CheckIcon, SocialLink, SoundOnIcon, SoundOffIcon } from './components/ui';
 
 const App: React.FC = () => {
-  const CONTRACT_ADDRESS = 'Address will be revealed at launch... stay tuned!';
+  const CONTRACT_ADDRESS = 'GT3aMjCq296mYigc5AioHFnG4628jY5VXrbdF5P4jMcH';
   const [isCopied, setIsCopied] = useState(false);
   const [isMuted, setIsMuted] = useState(true);
 
@@ -81,7 +81,7 @@ const App: React.FC = () => {
           <SocialLink href="https://telegram.org/" ariaLabel="Join Telegram group">
             <TelegramIcon />
           </SocialLink>
-          <SocialLink href="https://pump.fun/" ariaLabel="Find on Pump.fun">
+          <SocialLink href="https://pump.fun/coin/GT3aMjCq296mYigc5AioHFnG4628jY5VXrbdF5P4jMcH" ariaLabel="Find on Pump.fun">
             <PumpFunIcon />
           </SocialLink>
           <SocialLink href="https://launchmynft.io/" ariaLabel="Launch an NFT with us">
